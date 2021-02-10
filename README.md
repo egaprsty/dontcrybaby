@@ -10,4 +10,4 @@ npm init
 npm run dev
 ```
 
-Deploy [http://egaprsty.vercel.app]
+Deploy (http://egaprsty.vercel.app)
