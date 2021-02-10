@@ -126,7 +126,7 @@ function Home() {
                   <Link href="https://instagram.com/svnberr"><img src="/ig.png" width={80} height={80}/></Link>
             </div>
                 <div className="text-center px-4 py-2 m-2">
-                  <Link href="https://www.twitter.com/egadevs"><img src="/fb.png" width={75} height={80}/></Link>
+                  <Link href="https://facebook.com/rhfamili7"><img src="/fb.png" width={75} height={80}/></Link>
             </div>
           </div>  
       <br/>
