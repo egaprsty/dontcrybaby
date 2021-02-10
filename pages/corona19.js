@@ -23,7 +23,7 @@ const Ninjas = ({ ninjas }) => {
             />
             <br/>
             <Link href="/">
-                <button className="ml-5 pr-2 pl-2 bg-purple-300 hover:bg-blue-200 rounded-lg">
+                <button className="ml-5 pr-2 pl-2 bg-purple-300 hover:bg-blue-200 rounded-lg fixed">
                     Go Back
                 </button>
             </Link>
