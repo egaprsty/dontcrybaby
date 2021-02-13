@@ -79,6 +79,9 @@ function Home() {
                  <br/> 
             
 
+             <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
+              <br/>
+    
             <div className="flex flex-no-wrap">
               <Link href="https://dev.to/ga/react-component-libraries-3oa5">
                 <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
