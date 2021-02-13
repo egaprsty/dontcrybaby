@@ -3,7 +3,7 @@ import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
 export const getStaticProps = async () => {
-    const res = await fetch('http://egaprsty/dontcrybaby/pages/api/dataSd')
+    const res = await fetch('/api/dataSd')
     const data = await res.json();
 
     return{
