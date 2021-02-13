@@ -54,27 +54,30 @@ function Home() {
               </Link>
             </div>
                  <br/>
+               
+        <div className="flex justify-center">
+                <h1 className="font-bold">THE DATA SCHOOL AT MAJENANG</h1>
+                </div>
                 <br/>
-                
-                
-            <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
-              <br/>
-                <Link href="https://dev.to/ga/7-useful-cheat-sheets-for-web-developers-and-designers-2dp1">
-                  <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                  <div className="md:flex">
-                  <div className="md:flex-shrink-0">
-                    <img className="h-48 w-full object-cover md:w-48" src="/ega.jpg" alt="Man looking at item at a store" />
+                <div className="flex flex-no-wrap justify-center">
+                  <Link href="/sd"> 
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                      SD
+                </button>
+              </Link>
+              <Link href="/smp"> 
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                      SMP
+                </button>
+              </Link>
+              <Link href="/smk"> 
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                     SMK
+                </button>
+              </Link>
             </div>
-            <div className="p-8">
-             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold pt-5">Ega Prasetya</div>
-              <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">My Profile in Dev To</a>
-                <p className="mt-2 text-gray-500">Human Metronome who likes to share about technical architectured</p>
-           </div>
-        </div>
-      </div>
-    </Link>
-  <br/>
-<br/>
+                 <br/> 
+            
 
             <div className="flex flex-no-wrap">
               <Link href="https://dev.to/ga/react-component-libraries-3oa5">
