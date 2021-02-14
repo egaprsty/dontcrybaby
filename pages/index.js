@@ -59,24 +59,6 @@ function Home() {
                 <h1 className="font-bold">THE DATA SCHOOL AT MAJENANG</h1>
                 </div>
                 <br/>
-                <div className="flex flex-no-wrap justify-center">
-                  <Link href="/sd"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
-                      SD
-                </button>
-              </Link>
-              <Link href="/smp"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
-                      SMP
-                </button>
-              </Link>
-              <Link href="/smk"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
-                     SMK
-                </button>
-              </Link>
-            </div>
-                 <br/> 
             
 
              <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
