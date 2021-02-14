@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
-export const getStaticProps = async () => {
-    const res = await fetch('/api/dataSd')
+export const getInitialProps = async () => {
+    const res = await fetch('http://localhost:3000/api/dataSd')
     const data = await res.json();
 
     return{
