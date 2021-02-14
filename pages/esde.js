@@ -3,15 +3,15 @@ import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
 export const getStaticProps = async () => {
-    const res = await fetch('/api/dataSd.js')
+    const res = await fetch('http://localhost:3000/api/dataSd.js')
     const data = await res.json();
 
     return{
-        props: { ninjas:data }
+        props: { sevens:data }
     }
 }
 
-const Oh = ({ ninjas }) => {
+const Oh = ({ sevens }) => {
     return(
         <div className="bg-gray-200">
             <Head>
@@ -30,17 +30,17 @@ const Oh = ({ ninjas }) => {
             <hr/>
             <br/>
             <h1 className="text-center font-bold">SCHOOL INFORMATION</h1>
-            {ninjas.map(ninja => (
-                <div key={ninja}>
+            {ninjas.map(seven => (
+                <div key={seven}>
                     <div>
                     <div className="shadow ml-5 text-center rounded-full mr-3 pr-5 pl-5 bg-purple-200 mt-5">
-                        <h3 className="text-green-500 font-bold">{ ninja.name }</h3>
+                        <h3 className="text-green-500 font-bold">{ seven.name }</h3>
                         </div>
                     </div>
                     <div className="flex flex-row-reverse justify-center">
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{ninja.status}</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{ninja.alamat}</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{ninja.kelurahan}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.status}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.alamat}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.kelurahan}</h3>
                     </div>
                 </div>
             ))}
