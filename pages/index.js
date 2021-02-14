@@ -60,7 +60,7 @@ function Home() {
                 </div>
                 <br/>
                 <div className="flex flex-no-wrap justify-center">
-                  <Link href="/sd"> 
+                  <Link href="/esde"> 
                     <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
                       SD
                 </button>
