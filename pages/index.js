@@ -54,11 +54,6 @@ function Home() {
               </Link>
             </div>
                  <br/>
-               
-        <div className="flex justify-center">
-                <h1 className="font-bold">THE DATA SCHOOL AT MAJENANG</h1>
-                </div>
-                <br/>
 
 <div className="flex justify-center">
                 <h1 className="font-bold">THE DATA SCHOOL AT MAJENANG</h1>
