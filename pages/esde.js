@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
-export const getServerSideProps = async () => {
+export const getInitialProps = async () => {
     const res = await fetch('https://egaprsty.vercel.app/api/dataSd.js')
     const data = await res.json();
 
