@@ -3,7 +3,7 @@ import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
 export const getStaticProps = async () => {
-    const res = await fetch('127.0.0.1:3000/api/dataSd.js')
+    const res = await fetch('https://egaprsty.vercel.app/api/dataSd.js')
     const data = await res.json();
 
     return{
