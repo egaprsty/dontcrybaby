@@ -30,7 +30,7 @@ const Oh = ({ sevens }) => {
             <hr/>
             <br/>
             <h1 className="text-center font-bold">SCHOOL INFORMATION</h1>
-            {ninjas.map(seven => (
+            {sevens.map(seven => (
                 <div key={seven}>
                     <div>
                     <div className="shadow ml-5 text-center rounded-full mr-3 pr-5 pl-5 bg-purple-200 mt-5">
