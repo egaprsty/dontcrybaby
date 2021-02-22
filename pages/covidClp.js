@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import {NextSeo} from 'next-seo';
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const res = await fetch('http://egaprsty.vercel.app/api/covidCilacap')
     const data = await res.json();
 
