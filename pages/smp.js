@@ -30,11 +30,12 @@ const Oh = ({ sevens }) => {
             <hr/>
             <br/>
             <h1 className="text-center font-bold">SCHOOL INFORMATION</h1>
-            {sevens.map(seven => (
+            <br/>
+        {sevens.map(seven => (
                 <div key={seven}>
                     <div>
                     <div className="shadow ml-5 text-center rounded-full mr-3 pr-5 pl-5 bg-purple-200 mt-5">
-                        <h3 className="text-green-500 font-bold">{ seven.name }</h3>
+                        <h3 className="">{ seven.name }</h3>
                         </div>
                     </div>
                     <div className="flex flex-row-reverse justify-center">
