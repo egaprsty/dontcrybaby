@@ -66,16 +66,6 @@ function Home() {
                       SD
                 </button>
               </Link>
-              <Link href="/smp"> 
-                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
-                      SMP
-                </button>
-              </Link>
-              <Link href="/smk"> 
-                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
-                     SMK
-                </button>
-              </Link>
             </div>
                  <br/>
                   <br/>
