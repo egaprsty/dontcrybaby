@@ -19,7 +19,7 @@ const Oh = ({ sevens }) => {
             </Head>
             <NextSeo 
                 title="SD Majenang"
-                description="Informasi mengenai Sekolah Menengah Pendidikan yang ada di seluruh Majenang, semoga bermanfaat."
+                description="Informasi mengenai Sekolah Dasar yang ada di seluruh Majenang, semoga bermanfaat."
             />
             <br/>
             <Link href="/">
