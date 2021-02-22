@@ -4,74 +4,74 @@ export default (req, res) => {
     res.end(JSON.stringify([
         {
             name: 'SMK Komputama',
-            alamat: 'Jl. Yos Sudarso',
+            alamat: 'Jl.YosSudarso',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMA Negeri 1',
-            alamat: 'Jl.Rya Pahonjean',
-            status: 'Negri',
+            alamat: 'Jl.Pahonjean',
+            status: 'Negeri',
             kelurahan: 'Pahonjean'
         },
         {
             name: 'SMK Diponegoro',
-            alamat: 'Jl.Rya Pahonjean',
+            alamat: 'Jl.Pahonjean',
             status: 'Swasta',
             kelurahan: 'Pahonjean'
         },
         {
             name: 'SMK Yos Sudarso',
-            alamat: 'Jl. Yos Sudarso',
+            alamat: 'Jl.YosSudarso',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMA Yos Sudarso',
-            alamat: 'Jl. Yos Sudarso',
+            alamat: 'Jl.YosSudarso',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMK Farmasi',
-            alamat: 'Jl. Dr Wahidin 288',
-            status: 'Negri',
+            alamat: 'Jl.DrWahidin',
+            status: 'Negeri',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMK Muhammadiyah',
-            alamat: 'Jl. Padangjaya',
+            alamat: 'Jl.Padangjaya',
             status: 'Swasta',
             kelurahan: 'Cilopadang'
         },
         {
             name: 'MA Elbayan',
-            alamat: 'Jl. Benda KM02',
+            alamat: 'Jl. Benda',
             status: 'Swasta',
             kelurahan: 'Padangjaya'
         },
         {
             name: 'SMA Purnama',
-            alamat: 'Jl. Bhayangkara',
+            alamat: 'Jl.Bhayangkara',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMK AlMaata',
-            alamat: 'Jl. Kyai Suhud',
+            alamat: 'Jl.KyaiSuhud',
             status: 'Swasta',
             kelurahan: 'Padangsari'
         },
         {
             name: 'MA Nurul Quran',
-            alamat: 'Jl. KH. Baharudin',
+            alamat: 'Jl.KBaharudin',
             status: 'Swasta',
             kelurahan: 'Salebu'
         },
         {
             name: 'MAN 2 Cilacap',
-            alamat: 'Jl. KH. Tsauri',
-            status: 'Negri',
+            alamat: 'Jl.KH.Tsauri',
+            status: 'Negeri',
             kelurahan: 'Salebu'
         },
     ]))
