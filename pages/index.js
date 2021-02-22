@@ -53,11 +53,6 @@ function Home() {
                 </button>
               </Link>
             </Link>
-              <Link href="/covidClp"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
-                      COVID 19 IN Kab CILACAP
-                </button>
-              </Link>
             </div>
                  <br/>
 
