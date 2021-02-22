@@ -56,20 +56,6 @@ function Home() {
             </div>
                  <br/>
 
-<div className="flex justify-center">
-                <h1 className="font-bold">SCHOOL INFORMATION AT MAJENANG</h1>
-                </div>
-                <br/>
-                <div className="flex flex-no-wrap justify-center">
-                  <Link href="/esde"> 
-                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3 pt-5 pb-5">
-                      SD
-                </button>
-              </Link>
-            </div>
-                 <br/>
-                  <br/>
-
             
 
              <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
