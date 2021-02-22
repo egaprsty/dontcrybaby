@@ -46,7 +46,7 @@ export default (req, res) => {
         },
         {
             name: 'SD Negeri Salebu 03',
-            alamat: 'Jl. Gunung Padang',
+            alamat: 'Jl.GPadang',
             status: 'Negeri',
             kelurahan: 'Salebu'
         },
@@ -58,7 +58,7 @@ export default (req, res) => {
         },
         {
             name: 'SD Mulyasari 04',
-            alamat: 'Jl. Nusa Indah',
+            alamat: 'Jl.NusaIndah',
             status: 'Negeri',
             kelurahan: 'Mulyasari'
         },
@@ -70,31 +70,31 @@ export default (req, res) => {
         },
         {
             name: 'SD Negeri Bener 01',
-            alamat: 'Jl. Raya Bener',
+            alamat: 'Jl.RayaBener',
             status: 'Negeri',
             kelurahan: 'Bener'
         },
         {
             name: 'SD Negeri Padangsari 01',
-            alamat: 'Jl. Kyai Suhud',
+            alamat: 'Jl.KyaiSuhud',
             status: 'Negeri',
             kelurahan: 'Padangsari'
         },
         {
             name: 'SD Negeri Padangsari 02',
-            alamat: 'Jl. Banteng Loreng',
+            alamat: 'Jl.BLoreng',
             status: 'Negeri',
             kelurahan: 'Boja'
         },
         {
             name: 'SD Negeri Cibeunying 01',
-            alamat: 'Jl. Kh Sufyan Tsauri',
+            alamat: 'Jl.KhSTsauri',
             status: 'Negeri',
             kelurahan: 'Cibeunying'
         },
         {
             name: 'SD Muhammadiyah',
-            alamat: 'Jl. H. Abd Patah',
+            alamat: 'Jl.AbdPatah',
             status: 'Negeri',
             kelurahan: 'Pahonjean'
         },
