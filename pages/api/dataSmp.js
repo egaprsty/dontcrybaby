@@ -16,7 +16,7 @@ export default (req, res) => {
         },
         {
             name: 'SMP Islam',
-            alamat: 'K. Suyono',
+            alamat: 'Suyono',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
@@ -28,37 +28,37 @@ export default (req, res) => {
         },
         {
             name: 'SMP Negeri 4',
-            alamat: 'Jl. Sepatnunggal',
+            alamat: 'Sepatnunggal',
             status: 'Negeri',
             kelurahan: 'Sepatnunggal'
         },
         {
             name: 'SMP Negeri 3',
-            alamat: 'Jl. Benda 21',
+            alamat: 'Jl. Benda',
             status: 'Negeri',
             kelurahan: 'Padangjaya'
         },
         {
             name: 'SMP Negeri Satap 5',
-            alamat: 'Jl. Ki Bangun 25',
+            alamat: 'Jl.KiBangun',
             status: 'Negeri',
             kelurahan: 'Salebu'
         },
         {
             name: 'SMP Negeri Satap 6',
-            alamat: 'Jl. Purwodadi',
+            alamat: 'Purwodadi',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Negeri Satap 7',
-            alamat: 'Jl. Jerotengah',
+            alamat: 'Jerotengah',
             status: 'Negeri',
             kelurahan: 'Boja'
         },
         {
             name: 'SMP Muhammadiyah',
-            alamat: 'Jl. Ahmad Dahlan',
+            alamat: 'AhmadDahlan',
             status: 'Swasta',
             kelurahan: 'Jenang'
         },
