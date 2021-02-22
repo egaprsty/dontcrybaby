@@ -11,20 +11,20 @@ export default (req, res) => {
         {
             name: 'Kec. Wanareja',
             kontak: 0,
-            dirawat: 1,
-            positif: 9
+            dirawat: 2,
+            positif: 7
         },
         {
             name: 'Kec. Majenang',
-            kontak: 1,
-            dirawat: 5,
+            kontak: 0,
+            dirawat: 3,
             positif: 9
         },
         {
             name: 'Kec. Cimanggu',
-            kontak: 5,
+            kontak: 0,
             dirawat: 0,
-            positif: 6
+            positif: 10
         },
         {
             name: 'Kec. Karangpucung',
@@ -35,7 +35,7 @@ export default (req, res) => {
         {
             name: 'Kec. Cipari',
             kontak: 0,
-            dirawat: 1,
+            dirawat: 0,
             positif: 8
         },
         {
@@ -60,7 +60,7 @@ export default (req, res) => {
             name: 'Kec. Gandrungmangu',
             kontak: 0,
             dirawat: 0,
-            positif: 12
+            positif: 13
         },
         {
             name: 'Kec. Bantarsari',
@@ -76,45 +76,45 @@ export default (req, res) => {
         },
         {
             name: 'Kec. Jeruklegi',
-            kontak: 3,
-            dirawat: 2,
-            positif: 24
+            kontak: 0,
+            dirawat: 1,
+            positif: 28
         },
         {
             name: 'Kec. Kesugihan',
             kontak: 0,
             dirawat: 0,
-            positif: 46
+            positif: 42
         },
         {
             name: 'Kec. Adipala',
             kontak: 0,
             dirawat: 0,
-            positif: 5
+            positif: 6
         },
         {
             name: 'Kec. Maos',
             kontak: 0,
             dirawat: 1,
-            positif: 20
+            positif: 16
         },
         {
             name: 'Kec. Kroya',
-            kontak: 0,
+            kontak: 1,
             dirawat: 0,
             positif: 14
         },
         {
             name: 'Kec. Binangun',
-            kontak: 3,
+            kontak: 0,
             dirawat: 0,
-            positif: 3
+            positif: 7
         },
         {
             name: 'Kec. Sampang',
             kontak: 0,
             dirawat: 0,
-            positif: 3
+            positif: 2
         },
         {
             name: 'Kec. Nusawungu',
@@ -124,21 +124,21 @@ export default (req, res) => {
         },
         {
             name: 'Kec. Cilacap Utara',
-            kontak: 0,
+            kontak: 17,
             dirawat: 1,
-            positif: 53
+            positif: 54
         },
         {
             name: 'Kec. Cilacap Selatan',
-            kontak: 12,
-            dirawat: 4,
-            positif: 42
+            kontak: 0,
+            dirawat: 2,
+            positif: 50
         },
         {
             name: 'Kec. Cilacap Tengah',
             kontak: 0,
             dirawat: 5,
-            positif: 76
+            positif: 74
         },
         {
             name: 'Kec. Kampung Laut',
