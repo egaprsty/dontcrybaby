@@ -34,14 +34,14 @@ const Oh = ({ sevens }) => {
         {sevens.map(seven => (
                 <div key={seven}>
                     <div>
-                    <div className="shadow ml-5 text-center rounded-full mr-3 pr-5 pl-5 bg-gray-200 mt-5">
+                    <div className="shadow ml-5 text-center rounded-full mr-3 pr-5 pl-5 bg-purple-200 mt-5">
                         <h3 className="">{ seven.name }</h3>
                         </div>
                     </div>
                     <div className="flex flex-row-reverse justify-center">
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-red-100 mt-5">{seven.status}</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-blue-100 mt-5">{seven.alamat}</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-yellow-100 mt-5">{seven.kelurahan}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.status}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.alamat}</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-gray-100 mt-5">{seven.kelurahan}</h3>
                     </div>
                 </div>
             ))}
