@@ -4,31 +4,31 @@ export default (req, res) => {
     res.end(JSON.stringify([
         {
             name: 'SMP Negeri 1',
-            alamat: 'Bayangkara',
+            alamat: 'Jl.Bayangkara',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Negeri 2',
-            alamat: 'Bayangkara',
+            alamat: 'Jl.Bayangkara',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Islam',
-            alamat: 'Suyono',
+            alamat: 'Jl.KSuyono',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMP Diponegoro',
-            alamat: 'Diponegoro',
+            alamat: 'Jl.Diponegoro',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMP Negeri 4',
-            alamat: 'Sepatnunggal',
+            alamat: 'Jl.SNunggal',
             status: 'Negeri',
             kelurahan: 'Sepatnunggal'
         },
@@ -46,85 +46,85 @@ export default (req, res) => {
         },
         {
             name: 'SMP Negeri Satap 6',
-            alamat: 'Purwodadi',
+            alamat: 'Jl.Purwodadi',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Negeri Satap 7',
-            alamat: 'Jerotengah',
+            alamat: 'Jl.Jerotengah',
             status: 'Negeri',
             kelurahan: 'Boja'
         },
         {
             name: 'SMP Muhammadiyah',
-            alamat: 'AhmadDahlan',
+            alamat: 'Jl.AhmadDahlan',
             status: 'Swasta',
             kelurahan: 'Jenang'
         },
         {
             name: 'SMP Ma`arif NU 1',
-            alamat: 'Jl. M Dahuri',
+            alamat: 'Jl.MDahuri',
             status: 'Swasta',
             kelurahan: 'Salebu'
         },
         {
             name: 'SMP Ma`arif NU 2',
-            alamat: 'Jl. Masjid Baitul Muminin',
+            alamat: 'Jl.MBMuminin',
             status: 'Swasta',
             kelurahan: 'Pahonjean'
         },
         {
             name: 'SMP Almaata',
-            alamat: 'Jl. Kyai Suhud 14',
+            alamat: 'Jl.KyaiSuhud',
             status: 'Swasta',
             kelurahan: 'Padangsari'
         },
         {
             name: 'MTSN 1 Cilacap',
-            alamat: 'Jl. Pahonjean 11',
+            alamat: 'Jl.Pahonjean',
             status: 'Negeri',
             kelurahan: 'Pahonjean'
         },
         {
             name: 'MTSS Al Ihya',
-            alamat: 'Jl. Al Khittoh 59',
+            alamat: 'Jl.AlKhittoh',
             status: 'Swasta',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'MTSS Darwata',
-            alamat: 'Jl. Kyai Nawawi 04',
+            alamat: 'Jl.KyaiNawawi',
             status: 'Swasta',
             kelurahan: 'Padangsari'
         },
         {
             name: 'MTSS El Bayan',
-            alamat: 'Jl. Pemuda 10',
+            alamat: 'Jl.Pemuda',
             status: 'Swasta',
             kelurahan: 'Padangjaya'
         },
         {
             name: 'MTSS Muhammadiyah',
-            alamat: 'Jl. Srikaya',
+            alamat: 'Jl.Srikaya',
             status: 'Swasta',
             kelurahan: 'Jenang'
         },
         {
             name: 'MTSS Nurul QUR`AN',
-            alamat: 'Jl. KH Bahrudin',
+            alamat: 'Jl.KBahrudin',
             status: 'Swasta',
             kelurahan: 'Salebu'
         },
         {
             name: 'MTSS Pesantren Pembangunan',
-            alamat: 'Jl. KH Sufyan Tsauri',
+            alamat: 'Jl.KHSTsauri',
             status: 'Swasta',
             kelurahan: 'Cibeunying'
         },
         {
             name: 'MTSS SA Tanwirul Huda',
-            alamat: 'Jl. Kyai Suhud 14',
+            alamat: 'Jl.KyaiSuhud',
             status: 'Swasta',
             kelurahan: 'Padangsari'
         },
