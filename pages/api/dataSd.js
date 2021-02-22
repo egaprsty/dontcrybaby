@@ -22,13 +22,13 @@ export default (req, res) => {
         },
         {
             name: 'SD Sindangsari 02',
-            alamat: 'Jl. Mawar No 2',
+            alamat: 'Jl. Mawar',
             status: 'Negeri',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SD Negeri Jenang 05',
-            alamat: 'Jl. Manggis No 02',
+            alamat: 'Jl. Manggis',
             status: 'Negeri',
             kelurahan: 'Mulyasari'
         },
@@ -40,7 +40,7 @@ export default (req, res) => {
         },
         {
             name: 'SD Negeri Jenang 04',
-            alamat: 'Jl. Pramuka',
+            alamat: 'Jl.Pramuka',
             status: 'Negeri',
             kelurahan: 'Sindangsari'
         },
