@@ -52,31 +52,38 @@ function Home() {
                       COVID 19 IN THE WORLD
                 </button>
               </Link>
+            </Link>
+              <Link href="/covidClp"> 
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                      COVID 19 IN Kab CILACAP
+                </button>
+              </Link>
             </div>
                  <br/>
 
 <div className="flex justify-center">
-                <h1 className="font-bold">THE DATA SCHOOL AT MAJENANG</h1>
+                <h1 className="font-bold">SCHOOL INFORMATION AT MAJENANG</h1>
                 </div>
                 <br/>
                 <div className="flex flex-no-wrap justify-center">
                   <Link href="/esde"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3 pt-5 pb-5">
                       SD
                 </button>
               </Link>
               <Link href="/smp"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
                       SMP
                 </button>
               </Link>
               <Link href="/smk"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
                      SMK
                 </button>
               </Link>
             </div>
                  <br/>
+                  <br/>
 
             
 
