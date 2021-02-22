@@ -25,7 +25,7 @@ function Home() {
                 height={50}
               />
               
-              <h1 className="ml-3 mt-3 text-gray-400">@EGAPRSTY</h1>
+              <h1 className="ml-3 mt-3 text-gray-400">@MJINFORMATION</h1>
               </div>
               <br/>
               <div>
@@ -48,14 +48,42 @@ function Home() {
                  <br/>
                   <div className="flex justify-center">
                   <Link href="/corona19"> 
-                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
                       COVID 19 IN THE WORLD
                 </button>
               </Link>
-            </Link>
+              <Link href="/covidClp"> 
+                    <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                      COVID 19 IN Kab CILACAP
+                </button>
+              </Link>
             </div>
                  <br/>
+                 <br/>
 
+<div className="flex justify-center">
+                <h1 className="font-bold">SCHOOL INFORMATION AT MAJENANG</h1>
+                </div>
+                <br/>
+                <div className="flex flex-no-wrap justify-center">
+                  <Link href="/esde"> 
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3 pt-5 pb-5">
+                      SD
+                </button>
+              </Link>
+              <Link href="/smp"> 
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                      SMP
+                </button>
+              </Link>
+              <Link href="/smk"> 
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                     SMK
+                </button>
+              </Link>
+            </div>
+                 <br/>
+                  <br/>
             
 
              <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
@@ -124,3 +152,4 @@ function Home() {
 }
 
 export default Home;
+
