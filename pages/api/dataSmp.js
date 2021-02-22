@@ -4,25 +4,25 @@ export default (req, res) => {
     res.end(JSON.stringify([
         {
             name: 'SMP Negeri 1',
-            alamat: 'Jl. Bayangkara',
+            alamat: 'Bayangkara',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Negeri 2',
-            alamat: 'Jl. Bayangkara',
+            alamat: 'Bayangkara',
             status: 'Negeri',
             kelurahan: 'Mulyadadi'
         },
         {
             name: 'SMP Islam',
-            alamat: 'Jl. Kapten Suyono',
+            alamat: 'K. Suyono',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
         {
             name: 'SMP Diponegoro',
-            alamat: 'Jl. Diponegoro 33',
+            alamat: 'Diponegoro',
             status: 'Swasta',
             kelurahan: 'Sindangsari'
         },
