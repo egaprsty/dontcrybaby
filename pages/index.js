@@ -8,10 +8,10 @@ function Home() {
   return (
     <div className="font-serif">
       <Head>
-        <title>Ega Prasetya</title>
+        <title>SEVEN TECH</title>
       </Head>
       <NextSeo 
-        title="Ega Prasetya"
+        title="SEVEN TECH"
         description="A fullstack developer, gamer, and human metronome who like to share about technologies"
       />
       <div className="space y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
@@ -25,7 +25,7 @@ function Home() {
                 height={50}
               />
               
-              <h1 className="ml-3 mt-3 text-gray-400">@MJINFORMATION</h1>
+              <h1 className="ml-3 mt-3 text-gray-400">@SEVENTECH</h1>
               </div>
               <br/>
               <div>
@@ -54,7 +54,7 @@ function Home() {
               </Link>
               <Link href="/covidClp"> 
                     <button className="bg-purple-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg pt-4 pb-4">
-                      COVID 19 IN Kab CILACAP
+                      COVID 19 IN KAB CILACAP
                 </button>
               </Link>
             </div>
@@ -67,7 +67,7 @@ function Home() {
                 <br/>
                 <div className="flex flex-no-wrap justify-center">
                   <Link href="/esde"> 
-                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3 pt-5 pb-5">
+                    <button className="bg-yellow-100 hover:bg-blue-700 rounded-lg pr-12 pl-12 shadow-lg mr-3 pt-5 pb-5">
                       SD
                 </button>
               </Link>
