@@ -44,6 +44,8 @@ const Ninjas = ({ ninjas }) => {
                     </div>
                 </div>
             ))}
+            <br/>
+                <h1 className="text-center font-gray-100">Made with Love @egaprsty</h1>
         </div>
     )
 }
