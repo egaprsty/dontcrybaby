@@ -43,6 +43,8 @@ const Ninjas = ({ ninjas }) => {
                     </div>
                 </div>
             ))}
+           <br/>
+               <h1 className="text-center font-gray-100">Sumber Data @EthicalHackerIndonesia</h1>
         </div>
     )
 }
