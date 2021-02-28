@@ -30,7 +30,7 @@ export default (req, res) => {
             name: 'Kec. Karangpucung',
             kontak: 3,
             dirawat: 1,
-            positif: 8
+            positif: 2
         },
         {
             name: 'Kec. Cipari',
