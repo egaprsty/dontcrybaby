@@ -145,6 +145,6 @@ export default (req, res) => {
             kontak: 0,
             dirawat: 0,
             positif: 0
-        }
+        },
     ]))
 }
