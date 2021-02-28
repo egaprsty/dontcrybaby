@@ -12,18 +12,18 @@ export default (req, res) => {
             name: 'Kec. Wanareja',
             kontak: 0,
             dirawat: 1,
-            positif: 3
+            positif: 2
         },
         {
             name: 'Kec. Majenang',
             kontak: 5,
-            dirawat: 2,
+            dirawat: 3,
             positif: 17
         },
         {
             name: 'Kec. Cimanggu',
             kontak: 6,
-            dirawat: 0,
+            dirawat: 1,
             positif: 6
         },
         {
@@ -35,7 +35,7 @@ export default (req, res) => {
         {
             name: 'Kec. Cipari',
             kontak: 2,
-            dirawat: 2,
+            dirawat: 3,
             positif: 8
         },
         {
@@ -48,13 +48,13 @@ export default (req, res) => {
             name: 'Kec. Kedungreja',
             kontak: 1,
             dirawat: 0,
-            positif: 11
+            positif: 6
         },
         {
             name: 'Kec. Patimuan',
             kontak: 0,
             dirawat: 0,
-            positif: 5
+            positif: 2
         },
         {
             name: 'Kec. Gandrungmangu',
@@ -84,7 +84,7 @@ export default (req, res) => {
             name: 'Kec. Kesugihan',
             kontak: 2,
             dirawat: 1,
-            positif: 36
+            positif: 34
         },
         {
             name: 'Kec. Adipala',
@@ -102,7 +102,7 @@ export default (req, res) => {
             name: 'Kec. Kroya',
             kontak: 0,
             dirawat: 0,
-            positif: 27
+            positif: 26
         },
         {
             name: 'Kec. Binangun',
@@ -126,7 +126,7 @@ export default (req, res) => {
             name: 'Kec. Cilacap Utara',
             kontak: 9,
             dirawat: 1,
-            positif: 63
+            positif: 62
         },
         {
             name: 'Kec. Cilacap Selatan',
@@ -138,7 +138,7 @@ export default (req, res) => {
             name: 'Kec. Cilacap Tengah',
             kontak: 3,
             dirawat: 2,
-            positif: 51
+            positif: 52
         },
         {
             name: 'Kec. Kampung Laut',
