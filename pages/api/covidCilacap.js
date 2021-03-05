@@ -126,7 +126,7 @@ export default (req, res) => {
             name: 'Kec. Cilacap Utara',
             kontak: 14,
             dirawat: 0,
-            positif: 74
+            positif: 70
         },
         {
             name: 'Kec. Cilacap Selatan',
