@@ -12,13 +12,13 @@ export default (req, res) => {
             name: 'Kec. Wanareja',
             kontak: 4,
             dirawat: 1,
-            positif: 4
+            positif: 5
         },
         {
             name: 'Kec. Majenang',
             kontak: 1,
             dirawat: 4,
-            positif: 20
+            positif: 21
         },
         {
             name: 'Kec. Cimanggu',
