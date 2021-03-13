@@ -25,7 +25,7 @@ function Home() {
                 height={50}
               />
               
-              <h1 className="ml-3 mt-3 text-gray-400">@SEVENTECH</h1>
+              <h1 className="ml-3 mt-3 text-gray-400">@LazyEngineer</h1>
               </div>
               <br/>
               <div>
