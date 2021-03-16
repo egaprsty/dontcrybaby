@@ -4,51 +4,51 @@ export default (req, res) => {
     res.end(JSON.stringify([
         {
             name: 'Kec. Dayeuhluhur',
-            kontak: 3,
+            kontak: 6,
             dirawat: 0,
-            positif: 1
+            positif: 0
         },
         {
             name: 'Kec. Wanareja',
             kontak: 0,
-            dirawat: 0,
-            positif: 4
+            dirawat: 1,
+            positif: 1
         },
         {
             name: 'Kec. Majenang',
-            kontak: 0,
+            kontak: 1,
             dirawat: 3,
-            positif: 16
+            positif: 9
         },
         {
             name: 'Kec. Cimanggu',
-            kontak: 11,
-            dirawat: 2,
+            kontak: 13,
+            dirawat: 3,
             positif: 1
         },
         {
             name: 'Kec. Karangpucung',
             kontak: 0,
-            dirawat: 0,
-            positif: 4
+            dirawat: 1,
+            positif: 1
         },
         {
             name: 'Kec. Cipari',
-            kontak: 3,
+            kontak: 5,
             dirawat: 0,
             positif: 1
         },
         {
             name: 'Kec. Sidareja',
-            kontak: 5,
-            dirawat: 2,
-            positif: 5
+            kontak: 6,
+            dirawat: 3,
+            positif: 3
         },
         {
             name: 'Kec. Kedungreja',
             kontak: 0,
             dirawat: 2,
-            positif: 6
+            positif: 3
         },
         {
             name: 'Kec. Patimuan',
@@ -58,51 +58,51 @@ export default (req, res) => {
         },
         {
             name: 'Kec. Gandrungmangu',
-            kontak: 3,
-            dirawat: 4,
+            kontak: 0,
+            dirawat: 5,
             positif: 4
         },
         {
             name: 'Kec. Bantarsari',
-            kontak: 0,
-            dirawat: 2,
+            kontak: 2,
+            dirawat: 1,
             positif: 5
         },
         {
             name: 'Kec. Kawunganten',
             kontak: 0,
-            dirawat: 0,
-            positif: 1
+            dirawat: 1,
+            positif: 3
         },
         {
             name: 'Kec. Jeruklegi',
-            kontak: 4,
+            kontak: 24,
             dirawat: 1,
-            positif: 29
+            positif: 15
         },
         {
             name: 'Kec. Kesugihan',
-            kontak: 6,
-            dirawat: 1,
-            positif: 28
-        },
-        {
+            kontak: 15,
+            dirawat: 0,
+            positif: 22
+        {,
+        }
             name: 'Kec. Adipala',
             kontak: 0,
             dirawat: 0,
-            positif: 2
+            positif: 0
         },
         {
             name: 'Kec. Maos',
-            kontak: 0,
+            kontak: 7,
             dirawat: 0,
-            positif: 7
+            positif: 5
         },
         {
             name: 'Kec. Kroya',
-            kontak: 8,
+            kontak: 1,
             dirawat: 0,
-            positif: 19
+            positif: 24
         },
         {
             name: 'Kec. Binangun',
@@ -114,7 +114,7 @@ export default (req, res) => {
             name: 'Kec. Sampang',
             kontak: 0,
             dirawat: 0,
-            positif: 1
+            positif: 2
         },
         {
             name: 'Kec. Nusawungu',
@@ -124,21 +124,21 @@ export default (req, res) => {
         },
         {
             name: 'Kec. Cilacap Utara',
-            kontak: 12,
-            dirawat: 4,
-            positif: 67
+            kontak: 9,
+            dirawat: 2,
+            positif: 64
         },
         {
             name: 'Kec. Cilacap Selatan',
-            kontak: 14,
-            dirawat: 1,
-            positif: 90
+            kontak: 16,
+            dirawat: 3,
+            positif: 74
         },
         {
             name: 'Kec. Cilacap Tengah',
-            kontak: 33,
-            dirawat: 5,
-            positif: 70
+            kontak: 45,
+            dirawat: 3,
+            positif: 74
         },
         {
             name: 'Kec. Kampung Laut',
