@@ -6,7 +6,7 @@ export default (req, res) => {
             name: 'Kec. Dayeuhluhur',
             kontak: 12,
             dirawat: 0,
-            positif: 2
+            positif: 6
         },
         {
             name: 'Kec. Wanareja',
@@ -18,13 +18,13 @@ export default (req, res) => {
             name: 'Kec. Majenang',
             kontak: 3,
             dirawat: 1,
-            positif: 12
+            positif: 11
         },
         {
             name: 'Kec. Cimanggu',
             kontak: 2,
             dirawat: 2,
-            positif: 6
+            positif: 8
         },
         {
             name: 'Kec. Karangpucung',
