@@ -85,8 +85,8 @@ export default (req, res) => {
             kontak: 9,
             dirawat: 0,
             positif: 16
-        {,
-        }
+        },
+        {
             name: 'Kec. Adipala',
             kontak: 0,
             dirawat: 0,
