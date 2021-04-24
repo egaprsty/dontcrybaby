@@ -18,19 +18,19 @@ export default (req, res) => {
             name: 'Kec. Majenang',
             kontak: 3,
             dirawat: 1,
-            positif: 11
+            positif: 8
         },
         {
             name: 'Kec. Cimanggu',
             kontak: 2,
             dirawat: 2,
-            positif: 8
+            positif: 9
         },
         {
             name: 'Kec. Karangpucung',
             kontak: 3,
             dirawat: 1,
-            positif: 2
+            positif: 3
         },
         {
             name: 'Kec. Cipari',
