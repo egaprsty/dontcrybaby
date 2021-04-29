@@ -28,21 +28,7 @@ function Home() {
               <h1 className="ml-3 mt-3 text-gray-400">@LazyEngineer</h1>
               </div>
               <br/>
-              <div>
-                <div className="flex justify-center">
-                  <Image
-                    src="/undraw.png"
-                    width={400}
-                    height={300}
-                  />
-                </div>
-                  <div className="shadow-xl rounded-lg text-center border-gray-100 bg-gray-50">
-                    <br/>
-                    <p>A fullstack Software Developer, crafting with Javascript, React, and Golang at the moment. Love with games, and building useful products.</p>
-                    <br/>
-                  </div>
-              </div>
-                    
+                                  
               <h1 className="mt-10 text-center font-bold">INFORMATION</h1>
                <hr/>
                  <br/>
