@@ -61,7 +61,7 @@ function Home() {
                  <br/>
                  <br/>
 
-<div className="flex justify-center">
+              <div className="flex justify-center">
                 <h1 className="font-bold">SCHOOL INFORMATION AT MAJENANG</h1>
                 </div>
                 <br/>
@@ -84,44 +84,6 @@ function Home() {
             </div>
                  <br/>
                   <br/>
-            
-
-             <h1 className="text-center font-bold bg-yellow-400 pr-2 pl-2 rounded-lg shadow-lg">BLOG</h1>
-              <br/>
-    
-            <div className="flex flex-no-wrap">
-              <Link href="https://dev.to/ga/react-component-libraries-3oa5">
-                <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                  <div className="md:flex">
-                    <div className="md:flex-shrink-0">
-                      <img className="h-48 w-full object-cover md:w-48" src="/react.png" alt="Man looking at item at a store" />
-                </div>
-           <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold pt-5">React Comp</div>
-              <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Click in here if u wanna to see this article</a>
-                <p className="mt-2 text-gray-500">Javascript Tutorial</p>
-          </div>
-      </div>
-    </div>
-</Link>
-
-            <Link href="https://dev.to/ga/realtime-chat-app-golang-5498">
-              <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ml-2">
-                <div className="md:flex">
-                  <div className="md:flex-shrink-0">  
-                    <img className="h-48 w-full object-cover md:w-48" src="/golang.png" alt="Man looking at item at a store" />
-            </div>
-          <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold pt-5">Chat App Go</div>
-              <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Click in here if u wanna to see this article</a>
-                <p className="mt-2 text-gray-500">Golang Tutorial</p>
-        </div>
-      </div>
-    </div>
-  </Link>
-</div>
-<br/>
-<br/>
 
                 <h1 className="text-center font-bold">CONTACT ME</h1>
                   <br/>
