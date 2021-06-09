@@ -15,7 +15,7 @@ return (
                     <h1 className="mt-2">Usage Endpoint:</h1>
                 </div>
 
-                <div className="bg-gray-200 rounded-lg pr-2 pl-2 shadow-lg mt-2">
+                <div className="bg-gray-200 pr-2 pl-2 shadow-lg mt-2">
                     https://egaprsty.vercel.app/api/covidCilacap
                 </div>
 
@@ -28,7 +28,7 @@ return (
                     <h1 className="mt-2">Usage Endpoint:</h1>
                 </div>
 
-                <div className="bg-gray-200 rounded-lg pr-2 pl-2 shadow-lg mt-2">
+                <div className="bg-gray-200 pr-2 pl-2 shadow-lg mt-2">
                     https://egaprsty.vercel.app/api/dataSd
                 </div>
 
@@ -54,7 +54,7 @@ return (
                     <h1 className="mt-2">Usage Endpoint:</h1>
                 </div>
 
-                <div className="bg-gray-200 rounded-lg pr-2 pl-2 shadow-lg mt-2">
+                <div className="bg-gray-200 pr-2 pl-2 shadow-lg mt-2">
                     https://egaprsty.vercel.app/api/dataSmk
                 </div>
 
