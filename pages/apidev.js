@@ -55,7 +55,7 @@ return (
                 </div>
 
                 <div className="bg-gray-200 rounded-lg pr-2 pl-2 shadow-lg mt-2">
-                    https://egaprsty.vercel.app/api/covidClp
+                    https://egaprsty.vercel.app/api/dataSmk
                 </div>
 
                 <br/>
