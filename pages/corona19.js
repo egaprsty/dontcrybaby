@@ -30,6 +30,16 @@ const Ninjas = ({ ninjas }) => {
             <hr/>
             <br/>
             <h1 className="text-center font-bold">REALTIME DATA COVID19</h1>
+            <br/>
+            <div className="flex ml-5">
+                <div className="bg-red-200 pr-1 pl-1 rounded-lg mr-2">
+                    Positif
+                </div>
+                <div className="bg-yellow-200 pr-1 pl-1 rounded-lg">
+                    Negatif
+                </div>
+            </div>
+
             {ninjas.map(ninja => (
                 <div key={ninja}>
                     <div>
