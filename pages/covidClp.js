@@ -22,6 +22,7 @@ const Ninjas = ({ ninjas }) => {
                 description="This is realtime data COVID Application, i get the data from API Kawal Corona Indonesia, so thx."
             />
             <br/>
+
             <Link href="/">
                 <button className="ml-5 pr-2 pl-2 bg-purple-300 hover:bg-blue-200 rounded-lg fixed">
                     Go Back
@@ -30,6 +31,19 @@ const Ninjas = ({ ninjas }) => {
             <hr/>
             <br/>
             <h1 className="text-center font-bold">REALTIME DATA COVID19</h1>
+            <br/>
+            <div className="flex ml-5">
+                <div className="bg-red-300 pr-1 pl-1 rounded-lg mr-2">
+                    Positif
+                </div>
+                <div className="bg-red-200 pr-1 pl-1 rounded-lg mr-2">
+                    Dirawat
+                </div>
+                <div className="bg-yellow-200 pr-1 pl-1 rounded-lg">
+                    Kontak
+                </div>
+            </div>
+
             {ninjas.map(ninja => (
                 <div key={ninja}>
                     <div>
