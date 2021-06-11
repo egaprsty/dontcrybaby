@@ -8,16 +8,16 @@ function Home() {
   return (
     <div className="font-serif">
       <Head>
-        <title>SEVEN TECH</title>
+        <title>Ega Prasetya</title>
       </Head>
       <NextSeo 
-        title="SEVEN TECH"
+        title="Ega Prasetya"
         description="A fullstack developer, gamer, and human metronome who like to share about technologies"
       />
       <div className="space y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
         <header className="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
           <div className="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
-            <div className="flex flex-no-wrap mt-8">
+            <div className="flex mt-8">
               
               <Image
                 className="rounded-full"
@@ -26,7 +26,7 @@ function Home() {
                 height={50}
               />
               
-              <h1 className="ml-3 mt-3 text-gray-400">@SEVENTECH</h1>
+              <h1 className="ml-3 mt-3 text-gray-400">@egaprsty</h1>
               </div>
               <br/>
                                   
@@ -35,12 +35,12 @@ function Home() {
                  <br/>
                   <div className="flex justify-center">
                   <Link href="/corona19"> 
-                    <button className="text-blue-400 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
+                    <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
                       COVID 19 IN THE WORLD
                 </button>
               </Link>
               <Link href="/covidClp"> 
-                    <button className="text-blue-400 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
+                    <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
                       COVID 19 IN KAB CILACAP
                 </button>
               </Link>
@@ -52,19 +52,19 @@ function Home() {
                 <h1 className="font-bold text-2xl font-mono">SCHOOL AT MAJENANG</h1>
                 </div>
                 <br/>
-                <div className="flex flex-no-wrap justify-center">
+                <div className="flex flex-no-wrap justify-center divide-x divide-purple-500">
                   <Link href="/esde"> 
-                    <button className="text-blue-400 bg-white-300 hover:bg-blue-700 rounded-lg pr-12 pl-12 shadow-lg mr-3 pt-5 pb-5">
+                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-12 pl-12 shadow-xl mr-3 pt-5 pb-5">
                       SD
                 </button>
               </Link>
               <Link href="/smp"> 
-                    <button className="text-blue-400 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg mr-3">
+                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3">
                       SMP
                 </button>
               </Link>
               <Link href="/smk"> 
-                    <button className="text-blue-400 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-lg">
+                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl">
                      SMK
                 </button>
               </Link>

@@ -29,9 +29,9 @@ const Ninjas = ({ ninjas }) => {
             </Link>
             <hr/>
             <br/>
-            <h1 className="text-center font-bold">REALTIME DATA COVID19</h1>
+            <h1 className="text-center font-bold mt-2">REALTIME DATA COVID19</h1>
             <br/>
-            <div className="flex ml-5">
+            <div className="flex ml-5 divide-x divide-green-500">
                 <div className="bg-red-200 pr-1 pl-1 rounded-lg mr-2">
                     Positif
                 </div>
@@ -39,6 +39,7 @@ const Ninjas = ({ ninjas }) => {
                     Negatif
                 </div>
             </div>
+            <br/>
 
             {ninjas.map(ninja => (
                 <div key={ninja}>
