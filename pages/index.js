@@ -36,12 +36,12 @@ function Home() {
                   <div className="flex justify-center">
                   <Link href="/corona19"> 
                     <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
-                      COVID 19 IN THE WORLD
+                      COVID WORLD
                 </button>
               </Link>
               <Link href="/covidClp"> 
                     <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
-                      COVID 19 IN KAB CILACAP
+                      COVID CILACAP
                 </button>
               </Link>
             </div>
