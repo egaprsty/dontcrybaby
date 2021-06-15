@@ -4,45 +4,45 @@ export default (req, res) => {
     res.end(JSON.stringify([
         {
             name: 'Kec. Dayeuhluhur',
-            kontak: 1,
-            dirawat: 2,
-            positif: 6
+            kontak: 12,
+            dirawat: 3,
+            positif: 44
         },
         {
             name: 'Kec. Wanareja',
-            kontak: 0,
-            dirawat: 5,
-            positif: 3
+            kontak: 9,
+            dirawat: 6,
+            positif: 44
         },
         {
             name: 'Kec. Majenang',
-            kontak: 3,
-            dirawat: 8,
-            positif: 19
+            kontak: 0,
+            dirawat: 15,
+            positif: 42
         },
         {
             name: 'Kec. Cimanggu',
             kontak: 0,
-            dirawat: 1,
-            positif: 10
+            dirawat: 3,
+            positif: 79
         },
         {
             name: 'Kec. Karangpucung',
-            kontak: 0,
-            dirawat: 0,
-            positif: 11
+            kontak: 24,
+            dirawat: 1,
+            positif: 37
         },
         {
             name: 'Kec. Cipari',
-            kontak: 2,
-            dirawat: 1,
-            positif: 5
+            kontak: 0,
+            dirawat: 0,
+            positif: 13
         },
         {
             name: 'Kec. Sidareja',
             kontak: 0,
             dirawat: 0,
-            positif: 1
+            positif: 9
         },
         {
             name: 'Kec. Kedungreja',
@@ -53,98 +53,98 @@ export default (req, res) => {
         {
             name: 'Kec. Patimuan',
             kontak: 0,
-            dirawat: 0,
+            dirawat: 5,
             positif: 0
         },
         {
             name: 'Kec. Gandrungmangu',
             kontak: 0,
-            dirawat: 1,
-            positif: 14
+            dirawat: 3,
+            positif: 35
         },
         {
             name: 'Kec. Bantarsari',
-            kontak: 0,
+            kontak: 6,
             dirawat: 2,
-            positif: 6
+            positif: 21
         },
         {
             name: 'Kec. Kawunganten',
             kontak: 0,
-            dirawat: 0,
-            positif: 44
+            dirawat: 2,
+            positif: 23
         },
         {
             name: 'Kec. Jeruklegi',
-            kontak: 8,
+            kontak: 0,
             dirawat: 0,
-            positif: 55
+            positif: 46
         },
         {
             name: 'Kec. Kesugihan',
-            kontak: 26,
-            dirawat: 0,
-            positif: 34
+            kontak: 17,
+            dirawat: 3,
+            positif: 49
         },
         {
             name: 'Kec. Adipala',
             kontak: 0,
-            dirawat: 1,
+            dirawat: 5,
             positif: 24
         },
         {
             name: 'Kec. Maos',
-            kontak: 3,
-            dirawat: 0,
-            positif: 10
+            kontak: 0,
+            dirawat: 1,
+            positif: 56
         },
         {
             name: 'Kec. Kroya',
-            kontak: 19,
-            dirawat: 3,
-            positif: 22
+            kontak: 9,
+            dirawat: 7,
+            positif: 48
         },
         {
             name: 'Kec. Binangun',
             kontak: 0,
             dirawat: 0,
-            positif: 32
+            positif: 33
         },
         {
             name: 'Kec. Sampang',
             kontak: 0,
             dirawat: 0,
-            positif: 7
+            positif: 59
         },
         {
             name: 'Kec. Nusawungu',
             kontak: 0,
             dirawat: 0,
-            positif: 12
+            positif: 7
         },
         {
             name: 'Kec. Cilacap Utara',
-            kontak: 13,
-            dirawat: 3,
-            positif: 35
+            kontak: 0,
+            dirawat: 2,
+            positif: 57
         },
         {
             name: 'Kec. Cilacap Selatan',
-            kontak: 5,
-            dirawat: 0,
-            positif: 48
+            kontak: 0,
+            dirawat: 3,
+            positif: 79
         },
         {
             name: 'Kec. Cilacap Tengah',
-            kontak: 62,
-            dirawat: 7,
-            positif: 92
+            kontak: 24,
+            dirawat: 6,
+            positif: 116
         },
         {
             name: 'Kec. Kampung Laut',
             kontak: 0,
             dirawat: 0,
-            positif: 0
+            positif: 8
         },
     ]))
 }
