@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 function Home() {
   return (
-    <div className="font-serif">
+    <div className="font-serif bg-black">
       <Head>
         <title>Ega Prasetya</title>
       </Head>
@@ -30,17 +30,17 @@ function Home() {
               </div>
               <br/>
                                   
-              <h1 className="mt-10 text-center text-2xl font-bold font-mono">INFORMATION</h1>
+              <h1 className="mt-10 text-center text-xl font-bold font-mono text-gray-200">INFORMATION</h1>
                
                  <br/>
                   <div className="flex justify-center">
                   <Link href="/corona19"> 
-                    <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
+                    <button className="border-2 border-purple-500 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
                       COVID WORLD
                 </button>
               </Link>
               <Link href="/covidClp"> 
-                    <button className="border-2 border-green-200 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
+                    <button className="border-2 border-purple-500 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
                       COVID CILACAP
                 </button>
               </Link>
@@ -49,7 +49,7 @@ function Home() {
                  <br/>
 
               <div className="flex justify-center">
-                <h1 className="font-bold text-2xl font-mono">SCHOOL AT MAJENANG</h1>
+                <h1 className="font-bold text-xl font-mono text-gray-200">SCHOOL AT MAJENANG</h1>
                 </div>
                 <br/>
                 <div className="flex flex-no-wrap justify-center divide-x divide-purple-500">
@@ -74,7 +74,7 @@ function Home() {
 
                 <div className="text-center">
                 <Link href="/apidev">
-                  <button className="bg-white-200 rounded-lg pr-10 pl-10 pt-5 pb-3 shadow-xl"> 
+                  <button className="border-2 border-purple-500 rounded-lg pr-10 pl-10 pt-3 pb-3 shadow-xl text-white"> 
                       API FOR DEVELOPERS
                   </button>
                 </Link>
@@ -83,6 +83,11 @@ function Home() {
 
 
       <h1 className="text-center text-gray-400">Made With Love @egaprsty</h1>
+       <br />
+       <br />
+       <br />
+       <br /> 
+        
         </div>
       </header>
     </div>
