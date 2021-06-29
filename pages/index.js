@@ -14,11 +14,8 @@ function Home() {
         title="Ega Prasetya"
         description="A fullstack developer, gamer, and human metronome who like to share about technologies"
       />
-      <div className="space y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
-        <header className="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
-          <div className="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
-            <div className="flex mt-8">
-              
+          <div className="sm:px-80">
+              <div className="flex pt-10 ml-5">
               <Image
                 className="rounded-full"
                 src="/ega.jpg"
@@ -29,18 +26,39 @@ function Home() {
               <h1 className="ml-3 mt-3 text-gray-400">@egaprsty</h1>
               </div>
               <br/>
+              <br/>
+
+              <div className="border-0 border-gray-100 bg-black-100 shadow-lg rounded-lg ml-3 mr-5">
+                  <div className="pt-7 ml-3 text-3xl text-gray-300">
+                      Ega Prasetya
+                  </div>
+                  <br/>
+                    <div className="text-gray-300 p-3"> 
+                    A full stack software developer, crafting with Typescript, React, and Node.js at the moment. Into hackathons, strategy games, and building useful products.
+                    </div>
+                  <br/>
+                  <div className="ml-4 mr-4 bg-green-600 text-center cursor-pointer hover:bg-gray-400 p-1 rounded-lg">
+                      <h1 className="font-semibold text-white">Contact</h1>
+                  </div>
+
+                    <br/>
+              </div>
+
+              <div className="text-white p-5">
+                <h1 className="text-1xl text-gray-300">PROJECTS</h1>
+              </div>
                                   
-              <h1 className="mt-10 text-center text-xl font-bold font-mono text-gray-200">INFORMATION</h1>
+              <h1 className="mt-10 text-xl ml-5 font-bold font-mono text-gray-300">COVID</h1>
                
                  <br/>
-                  <div className="flex justify-center">
+                  <div className="flex ml-5">
                   <Link href="/corona19"> 
-                    <button className="border-2 border-purple-500 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
+                    <button className="border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
                       COVID WORLD
                 </button>
               </Link>
               <Link href="/covidClp"> 
-                    <button className="border-2 border-purple-500 text-gray-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
+                    <button className="border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
                       COVID CILACAP
                 </button>
               </Link>
@@ -48,38 +66,7 @@ function Home() {
                  <br/>
                  <br/>
 
-              <div className="flex justify-center">
-                <h1 className="font-bold text-xl font-mono text-gray-200">SCHOOL AT MAJENANG</h1>
-                </div>
-                <br/>
-                <div className="flex flex-no-wrap justify-center divide-x divide-purple-500">
-                  <Link href="/esde"> 
-                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-12 pl-12 shadow-xl mr-3 pt-5 pb-5">
-                      SD
-                </button>
-              </Link>
-              <Link href="/smp"> 
-                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3">
-                      SMP
-                </button>
-              </Link>
-              <Link href="/smk"> 
-                    <button className="text-green-500 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl">
-                     SMK
-                </button>
-              </Link>
-            </div>
-                 <br/>
-                  <br/>
-
-                <div className="text-center">
-                <Link href="/apidev">
-                  <button className="border-2 border-purple-500 rounded-lg pr-10 pl-10 pt-3 pb-3 shadow-xl text-white"> 
-                      API FOR DEVELOPERS
-                  </button>
-                </Link>
-              </div>
-              <br />
+             
 
 
       <h1 className="text-center text-gray-400">Made With Love @egaprsty</h1>
@@ -87,11 +74,8 @@ function Home() {
        <br />
        <br />
        <br /> 
-        
-        </div>
-      </header>
-    </div>
-  </div>
+</div>
+       </div>
   )
 }
 
