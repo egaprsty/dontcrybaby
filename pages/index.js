@@ -15,7 +15,7 @@ function Home() {
         description="A fullstack developer, gamer, and human metronome who like to share about technologies"
       />
           <div className="sm:px-80">
-              <div className="flex pt-10 ml-5">
+              <div className="flex pt-10 ml-5 sticky top-0">
               <Image
                 className="rounded-full"
                 src="/ega.jpg"
@@ -37,7 +37,7 @@ function Home() {
                     A full stack software developer, crafting with Typescript, React, and Node.js at the moment. Into hackathons, strategy games, and building useful products.
                     </div>
                   <br/>
-                  <div className="ml-4 mr-4 bg-green-600 text-center cursor-pointer hover:bg-gray-400 p-1 rounded-lg">
+                  <div className="ml-3 mr-4 bg-green-600 text-center cursor-pointer hover:bg-gray-400 p-1 rounded-lg">
                       <h1 className="font-semibold text-white">Contact</h1>
                   </div>
 
@@ -48,7 +48,7 @@ function Home() {
                 <h1 className="text-1xl text-gray-300">PROJECTS</h1>
               </div>
                                   
-              <h1 className="mt-10 text-xl ml-5 font-bold font-mono text-gray-300">COVID</h1>
+              <h1 className="mt-10 text-xl ml-5  font-mono text-gray-300">COVID</h1>
                
                  <br/>
                   <div className="flex ml-5">
@@ -58,7 +58,7 @@ function Home() {
                 </button>
               </Link>
               <Link href="/covidClp"> 
-                    <button className="border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
+                    <button className="mr-5 border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
                       COVID CILACAP
                 </button>
               </Link>

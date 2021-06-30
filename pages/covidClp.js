@@ -33,14 +33,11 @@ const Ninjas = ({ ninjas }) => {
             <h1 className="text-center font-bold mt-2">REALTIME DATA COVID19</h1>
             <br/>
             <div className="flex ml-5 divide-x divide-green-500">
-                <div className="bg-red-300 pr-1 pl-1 rounded-lg mr-2">
+                <div className="bg-red-200 pr-1 pl-1 rounded-lg mr-2">
                     Positif
                 </div>
-                <div className="bg-red-200 pr-1 pl-1 rounded-lg mr-2">
-                    Dirawat
-                </div>
                 <div className="bg-yellow-200 pr-1 pl-1 rounded-lg">
-                    Kontak
+                    Suspek
                 </div>
             </div>
             <br/>
@@ -54,8 +51,7 @@ const Ninjas = ({ ninjas }) => {
                     </div>
                     <div className="flex flex-row-reverse justify-center">
                     <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-yellow-200 mt-5">{ ninja.kontak}</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-red-200 mt-5">{ ninja.dirawat }</h3>
-                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-red-300 mt-5">{ ninja.positif }</h3>
+                    <h3 className="ml-4 shadow text-center rounded-full mr-3 pr-5 pl-5 bg-red-200 mt-5">{ ninja.positif }</h3>
                     </div>
                 </div>
             ))}
