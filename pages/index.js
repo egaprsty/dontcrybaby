@@ -4,7 +4,16 @@ import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Home() {
+export const getServerSideProps = async () => {
+  const res = await fetch('https://vaksin-jakarta.yggdrasil.id/')
+  const data = await res.json();
+
+  return{
+      props: { ninjas:data }
+  }
+}
+
+const Sweet = ({ ninjas }) => {
   return (
     <div className="font-serif bg-black">
       <Head>
@@ -45,7 +54,7 @@ function Home() {
               </div>
 
               <div className="text-white p-5">
-                <h1 className="text-1xl text-gray-300">PROJECTS</h1>
+                <h1 className="text-xl text-gray-300 font-mono">PROJECTS</h1>
               </div>
                                   
               <h1 className="mt-10 text-xl ml-5  font-mono text-gray-300">COVID</h1>
@@ -66,7 +75,20 @@ function Home() {
                  <br/>
                  <br/>
 
+
              
+        <h1 className="text-gray-300 ml-5 text-xl font-mono">DATA VAKSINASI DKI JAKARTA</h1>
+        <br/>
+        {ninjas.map(ninja => (
+          <div key={ninja}>
+            <div className="ml-5 text-sm text-gray-300 mt-2 border border-gray p-2 text-center rounded-lg mr-5">
+              <h3 className="text-gray-300"> {ninja.kode_lokasi_vaksinasi} </h3>
+              <h3 className="text-gray-300"> {ninja.nama_lokasi_vaksinasi} </h3>
+              <h3 className="text-gray-300"> {ninja.alamat_lokasi_vaksinasi} </h3>
+            </div>
+          </div>
+        ))}
+      <br/>
 
 
       <h1 className="text-center text-gray-400">Made With Love @egaprsty</h1>
@@ -79,5 +101,5 @@ function Home() {
   )
 }
 
-export default Home;
+export default Sweet;
 
