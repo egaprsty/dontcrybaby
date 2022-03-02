@@ -46,10 +46,11 @@ const Sweet = ({ ninjas }) => {
                     A full stack software developer, crafting with Typescript, React, and Node.js at the moment. Into hackathons, strategy games, and building useful products.
                     </div>
                   <br/>
+                   <Link href="https://github.com/egaprsty">
                   <div className="ml-3 mr-4 bg-green-600 text-center cursor-pointer hover:bg-gray-400 p-1 rounded-lg">
-                      <h1 className="font-semibold text-white" href="https://github.com/egaprsty">Contact</h1>
+                      <h1 className="font-semibold text-white">Contact</h1>
                   </div>
-
+                  </Link>
                     <br/>
               </div>
 
