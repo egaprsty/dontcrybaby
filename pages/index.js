@@ -47,7 +47,7 @@ const Sweet = ({ ninjas }) => {
                     </div>
                   <br/>
                   <div className="ml-3 mr-4 bg-green-600 text-center cursor-pointer hover:bg-gray-400 p-1 rounded-lg">
-                      <h1 className="font-semibold text-white">Contact</h1>
+                      <h1 className="font-semibold text-white" href="https://github.com/egaprsty">Contact</h1>
                   </div>
 
                     <br/>
