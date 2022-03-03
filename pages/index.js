@@ -43,7 +43,7 @@ const Sweet = ({ ninjas }) => {
                   </div>
                   <br/>
                     <div className="text-gray-300 p-3"> 
-                    A full stack software developer, crafting with Typescript, React, and Node.js at the moment. Into hackathons, strategy games, and building useful products.
+                    A full stack software developer, crafting with Typescript, React, and Golang at the moment. Into hackathons, strategy games, and building useful products.
                     </div>
                   <br/>
                    <Link href="https://github.com/egaprsty">
