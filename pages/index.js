@@ -62,11 +62,7 @@ const Sweet = ({ ninjas }) => {
                
                  <br/>
                   <div className="flex ml-5">
-                  <Link href="/corona19"> 
-                    <button className="border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl mr-3 pt-4 pb-4">
-                      COVID WORLD
-                </button>
-              </Link>
+                  
               <Link href="/covidClp"> 
                     <button className="mr-5 border-2 border-purple-500 text-gray-300 bg-white-300 hover:bg-blue-700 rounded-lg pr-10 pl-10 shadow-xl pt-4 pb-4">
                       COVID CILACAP
@@ -75,7 +71,7 @@ const Sweet = ({ ninjas }) => {
             </div>
                  <br/>
                  <br/>
-
+<br />
 
              
         <h1 className="text-gray-300 ml-5 text-xl font-mono">DATA VAKSINASI DKI JAKARTA</h1>
