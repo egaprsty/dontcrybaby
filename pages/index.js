@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const res = await fetch('https://vaksin-jakarta.yggdrasil.id/')
   const data = await res.json();
 
