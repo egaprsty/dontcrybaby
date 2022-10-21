@@ -13,7 +13,7 @@ export const getServerSideProps = async () => {
   }
 }
 
-const Ninjas = ({ ninjas }) => {
+const Sweet = ({ ninjas }) => {
   return (
     <div className="font-serif bg-black">
       <Head>
@@ -98,5 +98,5 @@ const Ninjas = ({ ninjas }) => {
   )
 }
 
-export default Ninjas;
+export default Sweet;
 
