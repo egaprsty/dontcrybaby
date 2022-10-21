@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`http://vaksin-jakarta.yggdrasil.id/`)
+  const res = await fetch('http://vaksin-jakarta.yggdrasil.id/')
   const data = await res.json();
 
   return{
